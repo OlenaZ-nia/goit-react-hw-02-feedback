@@ -30,11 +30,12 @@ class App extends Component{
   
     render() {
       const { good, neutral, bad } = this.state;
+      const optionKeys=Object.keys(this.state)
 
         return(
           <>
             <Section>
-              <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={this.leaveFeedback} />
+              <FeedbackOptions options={optionKeys} onLeaveFeedback={this.leaveFeedback} />
             </Section>
             
             <Section title="Statistics">
