@@ -1,3 +1,3 @@
-# goit-react-hw-02-feedback
+# goit-react-hw-04-hooks-feedback
 
-Задание 1 - Виджет отзывов
+Виджет отзывов
